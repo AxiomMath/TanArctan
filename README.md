@@ -4,10 +4,10 @@
 
 This repository contains Lean files for the formalisation of three results about the
 Gaussian integers $P_n = \prod_{k=1}^{n}(1 + ik)$, the rational sequence
-$x_n = \operatorname{Im}(P_n) / \operatorname{Re}(P_n)$, and the arctangent angle sum
+$x_n = \mathrm{Im}(P_n) / \mathrm{Re}(P_n)$, and the arctangent angle sum
 $a_n = \sum_{k=1}^{n} \arctan(1/k)$.
 
-Writing $A_n = \operatorname{Re}(P_n)$, $B_n = \operatorname{Im}(P_n)$,
+Writing $A_n = \mathrm{Re}(P_n)$, $B_n = \mathrm{Im}(P_n)$,
 $\omega_n = A_n^2 + B_n^2 = \prod_{k=1}^{n}(1 + k^2)$, and letting $K_n$ be the squarefree
 kernel of $\omega_n$ (the product of the primes dividing $\omega_n$ to an odd power), the
 formalised statements are:
