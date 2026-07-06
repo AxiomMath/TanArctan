@@ -17,4 +17,4 @@ rev = "v4.28.0"
 
 [[lean_lib]]
 name = "TanArctan"
-globs = ["solution"]
+globs = ["output.solution"]

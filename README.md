@@ -33,8 +33,8 @@ libraries.
 
 ### Output Files
 
-- [`problem.lean`](problem.lean) is the formal problem statement.
-- [`solution.lean`](solution.lean) is the formal solution.
+- [`problem.lean`](output/problem.lean) is the formal problem statement.
+- [`solution.lean`](output/solution.lean) is the formal solution.
 
 ## License
 
