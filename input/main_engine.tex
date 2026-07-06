@@ -1,0 +1,77 @@
+\documentclass[12pt]{amsart}
+
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newcommand{\Z}{\mathbb{Z}}
+
+\begin{document}
+For integers $n\geq 1$, we define Gaussian integers $\Z[i]$
+\[
+P_n:=\prod_{k=1}^{n}(1+ik),
+\]
+where $A_n=\Re(P_n)$ and $B_n=\Im(P_n)$ are the real and imaginary parts respectively. Then define
+$$
+x_n:=\frac{B_n}{A_n}.
+$$
+The sequence begins with
+\[
+x_1=1,\ x_2=-3,\ x_3=0,\ x_4=4,\ x_5= -\tfrac{9}{19},\ x_6= \tfrac{105}{73},\ \dots.
+\]
+Define $\omega_n$ by
+$$
+\omega_n:=A_n^2+B_n^2=|P_n|^2.
+$$
+We define the \emph{squarefree kernel}
+$$
+K_n\;=\!\!\prod_{\nu_p(\omega_n)\ \mathrm{odd}}\!\! p,
+$$
+the product of primes dividing $\omega_n$ to an odd power.
+
+\begin{theorem}\label{thm:main}
+If $x_n=m$ is an integer, then the following hold.
+
+\smallskip
+\noindent
+{\rm(1)} We have that $K_n\mid(1+m^2)$.
+
+\smallskip
+\noindent
+{\rm(2)} If $K_n>1$, then
+\[
+|m|\ge\sqrt{K_n-1}.
+\]
+\end{theorem}
+
+To isolate the indices at which $x_n$ might be an integer, we let
+\[
+E\;=\;\bigl\{\,n\ge5:\ |x_n|>\tfrac n2+1\,\bigr\}.
+\]
+By definition, if $n\notin E$, then $|x_n|\le n/2+1$.  For all
+sufficiently large such $n$, this contradicts the lower bound
+$|m|\ge\sqrt{K_n-1}$, and hence $x_n$ cannot be an integer. 
+ We must count the exceptional set $E$. 
+ 
+ \begin{lemma}\label{lem:proximity} If we let
+\[
+a_n:=\sum_{k=1}^{n}\arctan(1/k),
+\]
+then we have
+\[
+n\in E \quad\Longrightarrow\quad \exists j\in\Z\ \text{ such that }\
+\left|a_n-j\frac{\pi}{2}\right|<\frac{2}{n}.
+\]
+\end{lemma}
+
+\begin{corollary}\label{cor:density}
+We have that
+\[
+\#(E\cap[1,N])=O(\log N).
+\]
+In particular, the conjecture holds on a set of density one.
+\end{corollary}
+
+
+\end{document}
+
