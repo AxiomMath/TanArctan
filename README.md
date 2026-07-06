@@ -17,7 +17,7 @@ formalised statements are:
 2. **`lem_proximity`** — For every $n$ in the exceptional set
    $E = \{\, n \ge 5 : |x_n| > n/2 + 1 \,\}$ there is an integer $j$ with
    $\left| a_n - j\,\tfrac{\pi}{2} \right| < \tfrac{2}{n}$.
-3. **`cor_density`** — $\#\bigl(E \cap [1, N]\bigr) = O(\log N)$.
+3. **`cor_density`** — $#\bigl(E \cap [1, N]\bigr) = O(\log N)$.
 
 The proofs were produced by [AxiomProver](https://axiommath.ai/) and are fully sorry-free.
 They were developed and verified using **Lean 4.28.0**. Compatibility with earlier or later
