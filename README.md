@@ -36,6 +36,14 @@ libraries.
 - [`problem.lean`](output/problem.lean) is the formal problem statement.
 - [`solution.lean`](output/solution.lean) is the formal solution.
 
+## Verifying with Comparator
+
+This repository can be verified against the formal problem statement with the Lean comparator on a Linux machine. First, follow the instructions in [https://github.com/leanprover/comparator](https://github.com/leanprover/comparator) to install comparator. Then, run the following command:
+
+```
+lake env comparator comparator.json
+```
+
 ## License
 
 This repository uses the MIT License. See [LICENSE](LICENSE) for details.
