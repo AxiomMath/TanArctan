@@ -1,0 +1,15 @@
+{
+  "challenge_module": "output.problem",
+  "solution_module": "output.solution",
+  "theorem_names": [
+    "thm_main",
+    "lem_proximity",
+    "cor_density"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}
